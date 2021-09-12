@@ -35,6 +35,12 @@ h2 {
   font-weight: 500;
   cursor: pointer;
   padding: 10px 20px; }
+.questions-block__visible-item.active i {
+  transform: rotateZ(180deg);
+}
+.questions-block__visible-item i {
+  transition: all .3s;
+}
 .questions-block__hidden-item {
   display: none;
   padding: 20px;
